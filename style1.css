@@ -1,0 +1,86 @@
+body {
+    background-image: url(data/image/accueil/1920.png);
+    background-position: center top;
+    background-size: auto 300vh;
+}
+#bodyOriginal {
+    background-color: rgb(48, 177, 72);
+    background-image: url(data/image/accueil/1920NB.png);
+}
+
+#logoBox{
+
+    display: flex;
+    justify-content: center;
+}
+#logoContenu{
+    margin: 2vh  10vw;
+    width: 60vh;
+}
+#stikersBox{
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.stikersContenu{
+    max-width: 300px;
+    margin: 0 5vw;
+}
+
+@media (min-width : 500px){
+    #stikersBox{
+       flex-direction: row;
+       margin-top: 0;
+    }
+    }
+
+    
+    .cls-1 {
+        isolation: isolate;
+    }
+
+    .cls-2 {
+        fill: #fff;
+    }
+
+    .cls-3 {
+        fill: #ea1c24;
+    }
+
+    .cls-4 {
+        fill: #f4901e;
+    }
+
+    .cls-5 {
+        fill: #ff0;
+    }
+
+    .cls-6 {
+        fill: blue;
+    }
+
+    .cls-7 {
+        mix-blend-mode: multiply;
+    }
+
+    .cls-8,
+    .cls-9 {
+        fill: none;
+    }
+
+    .cls-8 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 6px;
+    }
+
+    .aOmbre{
+        filter: drop-shadow(-2px 2px 2px #000);
+    }
+
+    .boutonInvisible{
+        opacity: 0;
+    }
